@@ -1,0 +1,22 @@
+@import '../variables';
+.about {
+    padding: 100px 0;
+    position: relative;
+    &__title {
+        font-weight: medium;
+        font-size: 16;
+        line-height: 140%;
+        max-width: 100px;
+        color: $Grayscale50;
+        margin-bottom: 20px;
+        &::after {
+            position: absolute;
+            content: '';
+            top: 110px;
+            right: 0;
+            width: 700px;
+            height: 2px;
+            background: #000;
+        }
+    }
+}
